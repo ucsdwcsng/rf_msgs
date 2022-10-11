@@ -50,6 +50,7 @@ add_message_files(
   FILES
   Wifi.msg
   Bearing.msg
+
 )
 
 ## Generate services in the 'srv' folder
