@@ -1,3 +1,2 @@
 Header header
-string[] mac
-string[] channel
+Station[] aps
