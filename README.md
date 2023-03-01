@@ -1,15 +1,17 @@
 # RF sensor msgs for ROS
 
 A catkin package that provides definitions for CSI and AOA messages. 
-To be used in conjunction with the [nexmon_csi_ros](https://github.com/ucsdwcsng/nexmon_csi_ros) 
-and [ros_bearing_sensor](https://github.com/ucsdwcsng/ros_bearing_sensor).
+To be used in conjunction with the [wiros_csi_node](https://github.com/ucsdwcsng/wiros_csi_node) 
+and [wiros_processing_node](https://github.com/ucsdwcsng/wiros_processing_node).
+
+< Go back to the [index page](https://github.com/ucsdwcsng/WiROS)
 
 ## Message Formats
 
 ### Wifi Message
 Below are the fields of the WiFi messages and their meanings.
 
-- uint8 ap_id : Set to 0 for now. (TODO Fix here)
+- uint8 ap_id : user-defined id to distinguish data from mulitple AP's. 
 - uint8 txmac[] : Should be of length 6, the MAC address of the transmitter
 - uint8 chan : Channel number
 - uint32 n_sub : Number of subcarriers (including pilot subcarriers and channel edges)
