@@ -1,10 +1,10 @@
 # RF sensor msgs for ROS
 
 A catkin package that provides definitions for CSI and AOA messages. 
-To be used in conjunction with the [wiros_csi_node](https://github.com/ucsdwcsng/wiros_csi_node) 
-and [wiros_processing_node](https://github.com/ucsdwcsng/wiros_processing_node).
+To be used in conjunction with the [wiros_csi_node](https://anonymous.4open.science/r/wiros_csi_node-7985/) 
+and [wiros_processing_node](https://anonymous.4open.science/r/wiros_processing_node-ED34/).
 
-< Go back to the [index page](https://github.com/ucsdwcsng/WiROS)
+< Go back to the [index page](https://anonymous.4open.science/r/WiROS-85F9/)
 
 ## Message Formats
 
