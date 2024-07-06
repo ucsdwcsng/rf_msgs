@@ -1,7 +1,7 @@
 # This message contains the angle of arrival measurements computed
 # from a particular Wifi message. See Wifi.msg for more details
 
-Header header
+std_msgs/Header header
 
 uint8 ap_id # AP identifier which collected the CSI data, sequential starting from 0, up to (total number of AP's - 1)
 uint8[] txmac

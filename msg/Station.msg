@@ -1,6 +1,6 @@
 #basic object which can be detected by wireless sensing.
 
-Header header
+std_msgs/Header header
 
 #mac address
 uint8[6] mac

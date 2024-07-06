@@ -1,4 +1,4 @@
 #A list of stations.
 
-Header header
+std_msgs/Header header
 Station[] aps
