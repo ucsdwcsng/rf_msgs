@@ -4,8 +4,6 @@ project(rf_msgs)
 ## Compile as C++11, supported in ROS Kinetic and newer
 add_compile_options(-std=c++14 -g)
 
-
-message("Targeting ROS2")
 find_package(ament_cmake REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
