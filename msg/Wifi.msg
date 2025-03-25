@@ -4,7 +4,7 @@
 
 # CSI matrix is n_sub x n_rows x n_cols
 
-Header header
+std_msgs/Header header
 
 uint8 ap_id # access point collecting the CSI
 uint8[] txmac
