@@ -6,6 +6,15 @@ and [wiros_processing_node](https://github.com/ucsdwcsng/wiros_processing_node).
 
 < Go back to the [index page](https://github.com/ucsdwcsng/WiROS)
 
+## ROS1 and ROS2
+
+This package by default supports ROS2, but there are legacy ROS1 build files you can use for ROS1 support.
+```
+# Enable ROS1 support
+mv rf_msgs/CMakeLists_ROS1.txt rf_msgs/CMakeLists.txt
+mv rf_msgs/package_ROS1.xml rf_msgs/package.xml
+```
+
 ## Message Formats
 
 ### Wifi Message
